@@ -1,0 +1,46 @@
+.section {
+  position: relative;
+  height: 100vh;
+
+  .sectionCenter {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+}
+
+#login {
+  background-image: url("/static/background.jpeg");
+  background-size: cover;
+  background-position: center;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: rgba(47, 103, 177, 0.2);
+  }
+}
+
+.loginForm {
+  background-color: rgb(0, 0, 0, 0.7);
+  padding: 25px 25px 40px 25px;
+  -webkit-box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  min-height: 18vw;
+
+  label {
+    color: white;
+  }
+
+  .formBtn {
+    margin-top: 1vw;
+  }
+}

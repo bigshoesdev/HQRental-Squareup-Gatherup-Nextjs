@@ -1,0 +1,23 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.swal2-popup {
+  width: 45em !important;
+}
+
+.swal2-title {
+  font-size: 3em !important;
+}
+
+.swal2-styled {
+  padding: 0.5em 2em !important;
+}
+
+.swal2-styled.swal2-confirm {
+  font-size: 1.75em !important;
+}
